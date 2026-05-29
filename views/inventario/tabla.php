@@ -92,6 +92,56 @@
         color:#0f172a;
     }
 
+    /* ================= SCROLL ================= */
+
+    .table-responsive::-webkit-scrollbar{
+        height:8px;
+    }
+
+    .table-responsive::-webkit-scrollbar-thumb{
+        background:#cbd5e1;
+        border-radius:20px;
+    }
+
+    /* ================= RESPONSIVE ================= */
+
+    @media screen and (max-width:768px){
+
+        .table-responsive{
+            border-radius:12px;
+            overflow-x:auto;
+        }
+
+        .table{
+            min-width:700px;
+        }
+
+        .table thead tr th{
+            font-size:12px;
+            padding:12px 8px !important;
+            white-space:nowrap;
+        }
+
+        .table tbody td{
+            font-size:12px;
+            padding:12px 8px !important;
+            white-space:nowrap;
+        }
+
+        .stock-badge{
+            font-size:11px;
+            padding:5px 10px;
+            min-width:55px;
+        }
+
+        .btn-view{
+            padding:6px 12px !important;
+            font-size:12px !important;
+            border-radius:10px !important;
+        }
+
+    }
+
 </style>
 
 <div class="table-responsive">
